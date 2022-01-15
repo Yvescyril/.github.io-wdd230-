@@ -31,7 +31,7 @@
         </footer>
         <span id="currentdate"></span>
         <script>
-            const Options = {week: "numeric", month: "long", year:"numeric"};
+            const Options = {weekday: "numeric", month: "long", year:"numeric"};
             document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en us", Options);
         </script>
     </body>
